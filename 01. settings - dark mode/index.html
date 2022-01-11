@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Settings</title>
+</head>
+<body id="body" class="">
+    <div id='container-settings' class="settings-container">
+        <h1>Settings</h1>
+        
+        <div class="slider-container">
+            <div id="dark-mode" class="sliders">
+                <p>Dark Mode</p>
+                <label class="switch dark-switch">
+                    <input type="checkbox" id="dark-change">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <div id="desktop-notifications" class="sliders">
+                <p>Desktop notifications</p>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <div id="focused-inbox" class="sliders">
+                <p>Focused inbox</p>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="coversation-view-container">
+            <h2>Conversation view</h2>
+            <div class="radio-buttons">
+                <label>
+                    <input type="radio" id="newest-top" name="conversation" value="newest-on-top">
+                    <span>Newest on top</span>
+                </label> <br>
+                    
+                <label>
+                    <input type="radio" id="newest" name="conversation" value="newest-on-bottom">
+                    <span>Newest on bottom</span>
+                </label> <br>
+
+                <label>
+                    <input type="radio" id="off" name="conversation" value="off">
+                    <span>Off</span>
+                </label>
+            </div>
+        </div>
+
+        <div class="reading-panels">
+            <h2>Reading panel</h2>
+            <div class="radio-buttons">
+                <label>
+                    <input type="radio" id="show-right" name="reading-panel" value="show-on-right">
+                    <span>Show on the right</span>
+                </label> <br>
+                <label>
+                    <input type="radio" id="show-bottom" name="reading-panel" value="show-on-bottom">
+                    <span>Show on the bottom</span>
+                </label> <br>
+                <label>
+                    <input type="radio" id="hide" name="reading-panel" value="hide">
+                    <span>Hide</span>
+                </label>
+            </div>
+        </div>
+
+        
+        <div class="settings">
+            <a href="#" id="settings-href" class="">View all settings</a>
+        </div>
+        
+
+
+    </div>
+    
+</body>
+</html>
