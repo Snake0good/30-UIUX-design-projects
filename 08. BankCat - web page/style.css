@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121516;
+    color: #FFFFFF;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    margin: 0px 90px;
+}
+
+nav {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    color: #FBFCFC;
+    margin: 15px 0 0px 0;
+}
+
+.left-nav {
+    display: inline-flex;
+    align-items: center;
+}
+
+.left-nav span {
+    color: #2B832E;
+    font-size: 2.5rem;
+    margin-right: 15px;
+}
+
+nav h2 {
+    font-size: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FBFCFC;
+    margin: 0 30px;
+    font-size: 1rem;
+}
+
+nav button {
+    background-color: #1B1D22;
+    border: none;
+    border-radius: 25px;
+    height: 45px;
+    width: 130px;
+    color: #FBFCFC;
+    font-size: 1rem;
+}
+
+nav button:hover {
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: -25px 0 -15px;
+}
+
+.left-main {
+    width: 60%;
+    padding-top: 45px;
+}
+
+.right-main {
+    width: 40%
+}
+
+.left-main h1{
+    font-size: 4rem;
+}
+
+.left-main p {
+    font-size: 1.2rem;
+    letter-spacing: .05rem;
+    color: #707474;
+    margin-bottom: 35px;
+}
+
+#get-started {
+    background-color: #2B832E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 45px;
+    width: 230px;
+    height: 70px;
+    font-size: 1.2rem;
+}
+
+.left-main-buttons a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 20px;
+    color: #707474;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+/* right side main css */
+.card-swiping-picture {
+    border-radius: 250px 0 0 250px;
+    overflow: hidden;
+    background-image: url('credit-card.jpg');
+    height: 400px;
+    width: 600px;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.cash-balance {
+    background-color: #101215;
+    width: 195px; 
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    top: 90px;
+    z-index: 100;
+}
+
+.cash-balance span {
+    width: 50px; 
+    height: 50px; 
+    background-color: #2B832E;
+    border-radius: 8px;
+    margin: 5px;
+    border: none;
+}
+
+.cash-balance div {
+    margin: 5px;
+}
+
+.cash-balance h3 {
+    font-size: 1.1rem;
+    margin: 0 0 6px;
+}
+
+.cash-balance p {
+    color: #707474;
+    margin: 0;
+    font-size: .8rem;
+}
+
+.payment-completed {
+    width: 250px; 
+    height: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: #101215;
+    border: none;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 50px;
+    bottom: 100px;
+    z-index: 100;
+}
+
+.payment-completed span {
+    background-color: #2B832E;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+}
+
+.payment-completed h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.payment-completed p {
+    color: #707474;
+    margin: 0;
+    font-size: 0.9rem;
+    padding: 0 10px
+}
+
+.right-main span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    width: 600px;
+    margin: -50px 0;
+}
+
+footer h1 {
+    font-size: 2.5rem;
+}
+
+footer p {
+    margin: 0 0 15px 0;
+    color: #707474;
+    font-size: 1.2rem;
+}
+
+/* 
+off-white: #707474
+green: #2B832E
+grey-background: #1B1D22
+black: #101215
+*/
