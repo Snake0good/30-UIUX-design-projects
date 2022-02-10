@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249,249,254);
+    color: rgb(22,21,68);
+    font-family: 'Arial', sans-serif;
+}
+
+.notifications-container {
+    width: 450px; 
+}
+
+.top-container {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#all-read {
+    height: 30px;
+    justify-content: center;
+    background-color: rgb(242,243,255);
+    color: rgb(133,143,233);
+    border: none;
+    border-radius: 25px;
+}
+
+.main-container {
+    width: 100%;
+    border: none;
+    padding: 35px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 10px 2px rgb(240,240,250);
+}
+
+span {
+    background-color: rgb(22,21,68);
+    color: white;
+    padding: 0.8rem 1.2rem;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+.bell-icon {
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: end;
+}
+
+.image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.pic-message {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.message {
+    margin-left: 15px;
+}
+
+#time {
+    color: rgb(184,184,198);
+}
+
+.btn-div {
+    text-align: center;
+}
+
+.btn {
+    width: 125px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    margin: 15px 0 30px 0;
+}
+
+#accept {
+    color: white;
+    background-color: rgb(22,21,68);
+}
+
+#decline {
+    background-color: white;
+    border: 1px solid rgb(184,184,198);
+}
+
+.line {
+    width: 100%;
+    margin: 25px 0;
+    border-bottom: 1px solid rgb(184,184,198);
+}
