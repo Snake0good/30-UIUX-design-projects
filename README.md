@@ -15,3 +15,18 @@ Most of the code is #HTML and #CSS but some does include #JS
 6. Pricing Selection
 7. APP UI Components
 8. Landing Page - Bank Cat
+
+
+📸 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸
+- Pictures of What You're Looking for
+
+1. ------ Light/Dark Mode --------
+<img width="972" alt="comparison settings vs uidaily setting" src="https://user-images.githubusercontent.com/57625094/153420070-866fe3e2-8daa-4c49-8402-91d5b5c8b624.png">
+
+
+2. ----- Notifications ------- 
+<img width="1081" alt="comparison" src="https://user-images.githubusercontent.com/57625094/153419913-785a62a0-64d1-4817-9fd1-c1f9ac5a8003.png">
+
+
+4. ----- Expenses ------- 
+<img width="1245" alt="comparison" src="https://user-images.githubusercontent.com/57625094/153419684-a425ae95-4020-4c1e-bf6a-3013c8025acd.png">
