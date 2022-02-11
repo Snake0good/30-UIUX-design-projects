@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#D0C2DE 0%, #F9EAA0 100%);
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    font-family: Verdana;
+    font-size: 2.5rem;
+}
+
+button {
+    background-color: #FFCA43;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+}
+
+button:hover, a:hover {
+    cursor: pointer;
+}
+
+.header {
+    display: fixed;
+    position: absolute;
+    top: 0;
+    margin: 15px 10px;
+}
+
+.left-header a, .right-header a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
+    margin-left: 15px; 
+}
+
+.name-info {
+    text-align: center;
+    width: 500px;
+}
+
+.main {
+    margin: 0 55px;
+}
+
+.blob-container, .main-top, .header {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-top, .header {
+    justify-content: space-between;
+    width: 100%;
+    padding: 25px 25px 0 25px;
+    font-family: Verdana;
+}
+
+.main-top a {
+    color: black
+}
+
+.blob {
+    padding: 15px;
+    margin: 0 6px;
+    border: none; 
+    border-radius: 25px;
+    box-shadow: 0 0 3px 1px;
+}
+
+.top-blob {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.top-blob, .mid-blob p {
+    opacity: 0.6
+}
+
+.mid-blob h2 {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+
+.bottom-blob a {
+    text-decoration: none;
+}
+
+.link-black{
+    color: white
+}
+
+.link-yellow {
+    color: black
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.yellow {
+    background-color: #FDCD44;
+}
