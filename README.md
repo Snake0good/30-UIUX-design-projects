@@ -18,7 +18,7 @@ Most of the code is #HTML and #CSS but some does include #JS
 
 
 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸 📸
-- Pictures of What You're Looking for
+- Pictures of What You're Looking at --
 
 1. ------ Light/Dark Mode --------
 <img width="972" alt="comparison settings vs uidaily setting" src="https://user-images.githubusercontent.com/57625094/153420070-866fe3e2-8daa-4c49-8402-91d5b5c8b624.png">
@@ -36,3 +36,5 @@ Most of the code is #HTML and #CSS but some does include #JS
 <img width="710" alt="comparison" src="https://user-images.githubusercontent.com/57625094/153642288-566e12ba-9549-445d-bec3-291407aafeb2.png">
 
 
+5. ----- Groups List -------
+<img width="1224" alt="comparison" src="https://user-images.githubusercontent.com/57625094/153803401-7c9e54ec-03d3-4270-bfa3-dea2ab7ad745.png">
