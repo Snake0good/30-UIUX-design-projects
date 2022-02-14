@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 30, 50);
+}
+
+.container {
+    background-color: rgb(35, 45, 65);
+    width: 600px;
+    height: 400px;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+}
+
+.sidebar {
+    background-color: rgb(25, 30, 50);
+    margin: 25px;
+    width: 75px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(115, 140, 200);
+    overflow: hidden;
+}
+
+.sidebar a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    color:rgb(115, 140, 200);
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.sidebar a:hover {
+    background-color:rgb(35, 45, 65)
+}
+
+.active {
+    background-color: rgb(35, 45, 65);
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left-header {
+    display: inline-flex;
+    align-items: center;
+    color:rgb(115, 140, 200);
+}
+
+.left-header h2 {
+    margin-left: 15px;
+}
+
+.right-header {
+    margin-right: 25px;
+    background-color: (25, 30, 50);
+    border: 1px solid rgb(15, 15, 25);
+    overflow: hidden;
+    padding: 5px 0;
+    border-radius: 5px;
+    color:rgb(115, 140, 200);
+    font-size: 1.2rem;
+}
+
+.view {
+    position: relative;
+}
+
+.view span {
+    padding: 15px 18px;
+    border-radius: 5px;;
+}
+
+input:checked + span {
+    background-color: rgb(47,55,80);
+}
+
+.right-header input {
+    display: none; 
+}
+
+.right-header .fas {
+    border: 1px solid red;
+}
+
+input:checked {
+    background-color: rgb(47,55,80);
+}
+
+
+.new-group {
+    background-color: rgb(47,55,80);
+    width: 100px; 
+    height: 125px;
+    border: none;
+    border-radius: 15px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.new-group div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 30, 50);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.new-group a {
+    text-decoration: none;
+    color: rgb(115, 140, 200);
+}
+
+.new-group span {
+    color: rgb(115, 140, 200);
+    font-size: 0.7rem;;
+}
+
+.old-group, .new-group {
+    box-shadow: 0 0 85px 2px rgb(30, 35, 41);
+}
+
+.old-group {
+    background-color: rgb(25, 30, 50);
+    width: 100px; 
+    height: 125px;
+    border-radius: 15px;
+    margin: 5px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.old-group h2, p {
+    margin: 0;
+    color:rgb(115, 140, 200)
+}
+
+.old-group h2 {
+    font-size: 1rem;
+    margin: 5px
+}
+
+.old-group p {
+    font-size: 0.6rem;
+}
+
+.purple-circle {
+    width: 8px;
+    height: 8px; 
+    border-radius: 50%;
+    background-color: rgb(142,103,254);
+    position: relative;
+    left: 39px;
+    bottom: 3px; 
+}
+
+.group-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
