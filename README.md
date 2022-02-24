@@ -42,8 +42,13 @@ Most of the code is #HTML and #CSS but some does include #JS
 <img width="1224" alt="comparison" src="https://user-images.githubusercontent.com/57625094/153803401-7c9e54ec-03d3-4270-bfa3-dea2ab7ad745.png">
 
 
+6. ----- Pricing Selection -------
+<img width="724" alt="Screen Shot 2022-01-05 at 9 56 41 AM" src="https://user-images.githubusercontent.com/57625094/155537968-b7f8eb0d-e00c-4102-a44e-cdc108ec5c38.png">
+
+
 9. ----- Feedback Form -------
 <img width="665" alt="feedback-form" src="https://user-images.githubusercontent.com/57625094/155536918-331a11cc-a57d-41d7-a3c3-e4a7c5639ab2.png">
+
 
 10. ----- Sign Up Form -------
 <img width="582" alt="Screen Shot 2021-12-07 at 9 45 27 AM" src="https://user-images.githubusercontent.com/57625094/155537146-40ed58e1-fd74-4ecd-9844-8dcaedd46945.png">
