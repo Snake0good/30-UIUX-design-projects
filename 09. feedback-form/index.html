@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+    <title>Feedback Card</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Give Feedback</h1>
+        <p id="p-header">What do you think of the issue search experience within Jagoo projects?</p>
+        
+        <div id="choices" class="choices">
+            <div class="feelings-container" id="terrible">
+                <i class="far fa-sad-tear"></i><p>Terrible</p>
+            </div>
+            <div class="feelings-container" id="bad">
+                <i class="far fa-frown"></i><p>Bad</p>
+            </div>
+            <div class="feelings-container" id="okay">
+                <i class="far fa-meh"></i><p>Okay</p>
+            </div>
+            <div class="feelings-container selected" id="good" >
+                <i class="far fa-smile"></i><p>Good</p>
+            </div>
+            <div class="feelings-container" id="amazing">
+                <i class="far fa-laugh"></i><p>Amazing</p>
+            </div>        
+        </div>
+
+        <p class="reasons-class">What are the main reasons for your rating?</p>
+
+        <textarea id="text-area" class="text-area" rows="5"></textarea>
+        
+        <div class="contact-email">
+            
+            <input type="checkbox" id="contact">
+            <label for="contact">I may be contacted about this feedback.</label>
+            <a href="#" class="checkbox-link" id="privacy-policy">Privacy Policy</a>
+
+            <br>
+
+            <input type="checkbox" id="research">
+            <label for="research">I'd like to help improve by joining the </label>
+            <a href="#" class="checkbox-link" id="research-group">Research Group</a>
+        </div>
+        
+
+        <div class="buttons">
+            <button id="submit" onclick="submitForm()">Submit</button>
+
+            <button id="cancel" onclick="cancelForm()">Cancel</button>    
+        </div>
+       
+    </div>
+    
+</body>
+</html>
