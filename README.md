@@ -46,6 +46,14 @@ Most of the code is #HTML and #CSS but some does include #JS
 <img width="724" alt="Screen Shot 2022-01-05 at 9 56 41 AM" src="https://user-images.githubusercontent.com/57625094/155537968-b7f8eb0d-e00c-4102-a44e-cdc108ec5c38.png">
 
 
+7. ----- App UI Components -------
+<img width="1426" alt="comparison" src="https://user-images.githubusercontent.com/57625094/160739426-dd8dad0b-fe44-43c8-9ae3-c51cdaa24b4c.png">
+
+
+8. ----- BankCat Website -------
+<img width="1439" alt="comparison A" src="https://user-images.githubusercontent.com/57625094/160739491-201432b0-6bab-421d-925a-58e0a9313243.png">
+
+
 9. ----- Feedback Form -------
 <img width="665" alt="feedback-form" src="https://user-images.githubusercontent.com/57625094/155536918-331a11cc-a57d-41d7-a3c3-e4a7c5639ab2.png">
 
