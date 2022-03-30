@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/locales/bootstrap-datepicker.us.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.standalone.min.css" rel="stylesheet"/>
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg></script>
+
+
+
+    <title>App UI Components - Calendar</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="left-container">
+            <button type="button" id="availability" onclick="popover()">Daily Availability<i class="fas fa-angle-down arrow"></i></button>
+            
+            <div id="popover-content" class="popover-content">
+                <p>Choose a view for the heat map:</p>
+                <label>
+                    <input type="radio" id="daily-avail" name="availability" value="newest-on-top">
+                    <span class="span-header">Daily Availability</span> <br>
+                    <span class="span-content">View the hours per day a person has open</span>
+                </label> <br>
+                <label>
+                    <input type="radio" id="daily-avail" name="availability" value="newest-on-top">
+                    <span class="span-header">Weekly Capacity</span> <br>
+                    <span class="span-content">View the hours per week a person is booked</span>
+                </label> <br>
+            </div>
+
+        </div>
+        <div class="right-container"> 
+            <div class="calendar-container">
+                <div class='calendar-head'>
+                    <p>Jump to a specific week:</p>
+                </div>
+                <div id="calendar"></div>
+            </div>
+
+            <div class="placeholder-container">
+                <i class="fas fa-question-circle question"></i>
+                <p class="placeholder">Assign time to Placeholders when you're not sure who will work on a project, or when youre team is at full capacity. You can simply reassign that time to a specific person later. <a href="#">Learn more</a></p>
+            </div>
+
+
+            
+                
+
+            
+        </div>
+    </div>
+    
+</body>
+</html>
